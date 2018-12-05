@@ -2,7 +2,7 @@ package fileHandler;
 
 public interface IXmlParser {
 	
-	public boolean tryToLoad();
-	public boolean tryToSave();
+	public boolean loadXml();
+	public boolean saveXml();
 
 }

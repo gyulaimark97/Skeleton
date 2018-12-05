@@ -3,12 +3,12 @@ package fileHandler;
 public class SettingsHandler extends FileHandler implements IXmlParser{
 
 	@Override
-	public boolean tryToLoad() {
+	public boolean loadXml() {
 		return false;
 	}
 
 	@Override
-	public boolean tryToSave() {
+	public boolean saveXml() {
 		return false;
 	}
 

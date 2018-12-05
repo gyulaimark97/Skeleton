@@ -8,7 +8,7 @@ public class Map {
 	
 	private MapSprite mapSprite; 
 	private int updateCount;
-	private ArrayList<MapEntity> mapEntities;
+	private ArrayList<MapEnemies> mapEntities;
 	private String name;
 	private String level;
 	
@@ -22,7 +22,7 @@ public class Map {
 	public void setLevel(String level) {
 		
 	}
-	public ArrayList<MapEntity> getMapEntities() {
+	public ArrayList<MapEnemies> getMapEntities() {
 		return null;
 	}
 	

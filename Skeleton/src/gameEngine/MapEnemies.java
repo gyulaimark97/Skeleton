@@ -4,7 +4,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 import gameEngine.gameEntities.Enemy;
 
-public class MapEntity {
+public class MapEnemies {
 	private Enemy enemy;
 	private int enemySpawnTime;
 	private Vector2f enemySpawnLocation;

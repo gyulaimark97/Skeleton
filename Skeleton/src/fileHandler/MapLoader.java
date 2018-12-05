@@ -9,12 +9,12 @@ public class MapLoader extends FileHandler implements IXmlParser {
 	public boolean loadMapSprite() {return false;}
 	
 	@Override
-	public boolean tryToLoad() {
+	public boolean loadXml() {
 		return false;
 	}
 
 	@Override
-	public boolean tryToSave() {
+	public boolean saveXml() {
 		return false;
 	}
 
