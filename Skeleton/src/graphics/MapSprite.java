@@ -1,29 +1,33 @@
 package graphics;
 
-public class MapSprite extends Sprite{
+import java.util.ArrayList;
 
-	@Override
+public class MapSprite {
+
+	private ArrayList<Sprite> mapObject;
+	private double width;
+	private double height;
 	public double getWidth() {
-		// TODO Auto-generated method stub
-		return 0;
+		return width;
 	}
-
-	@Override
+	public void setWidth(double width) {
+		this.width = width;
+	}
 	public double getHeight() {
-		// TODO Auto-generated method stub
-		return 0;
+		return height;
+	}
+	public void setHeight(double height) {
+		this.height = height;
 	}
 
-	@Override
-	public void animate() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void draw() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
+	public void draw(double posX, double posY, Sprite mapObject) {}
+	
+	public boolean isActive() {return false;}
+	
+	public void animate() {}
+	
+	public void update() {}
+	
+	public void delet() {}
 }

@@ -2,32 +2,47 @@ package graphics;
 
 import java.util.ArrayList;
 
-public class ObjectSprite extends Sprite {
+public class ObjectSprite  {
 	
 	private ArrayList<Sprite> sprites;
-
-	@Override
+	private String objectName;
+	private double width;
+	private double height;
+	private double posX;
+	private double posY;
+	
 	public double getWidth() {
-		// TODO Auto-generated method stub
-		return 0;
+		return width;
 	}
-
-	@Override
+	public void setWidth(double width) {
+		this.width = width;
+	}
 	public double getHeight() {
-		// TODO Auto-generated method stub
-		return 0;
+		return height;
 	}
-
-	@Override
-	public void animate() {
-		// TODO Auto-generated method stub
-		
+	public void setHeight(double height) {
+		this.height = height;
 	}
-
-	@Override
-	public void draw() {
-		// TODO Auto-generated method stub
-		
+	public double getPosX() {
+		return posX;
 	}
+	public void setPosX(double posX) {
+		this.posX = posX;
+	}
+	public double getPosY() {
+		return posY;
+	}
+	public void setPosY(double posY) {
+		this.posY = posY;
+	}
+	
+	public void draw(double posX, double posY) {}
+	
+	public void add(Sprite newSprite) {}
+	
+	public void animate() {}
+	
+	public void update() {}
+	
 
 }
